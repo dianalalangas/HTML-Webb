@@ -1,26 +1,112 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Kontakta oss</title>
-    </head>
 
-    <nav>
-        <a href="skrotochkornab.html"><strong>Startsida</strong></a>
-        <a href="produktsida.html"> <strong>Produktsida</strong></a>
-    </nav>
+<head>
+    <title>Kontakta oss</title>
+</head>
 
-    <body> 
-        <H1> Här finner du all information om hur du når oss och vår personal </H1>
+<nav>
+    <a href="skrotochkornab.html"><strong>Startsida</strong></a>
+    <a href="produktsida.html"> <strong>Produktsida</strong></a>
+</nav>
 
-   
-<image src="peabåke.jpeg" width="300" height="300"/>
-<p><strong>VD</strong></p>
-<p>Åke Larsson</p>
-<a href="mailto:akelarsson@skrot.se"> akelarsson@skrot.se</a>
-<br>
-<image src="offentligsektor.jpeg" width="300" height="300"/>
-<p><strong>HR</strong></p>
-<p>Britt Larsson</p>
-<a href="mailto:brittlarsson@skrot.se"> brittlarsson@skrot.se</a>
-    </body>
+<body>
+    <H1> Här finner du all information om hur du når oss och vår personal </H1>
+
+
+    <image src="peabåke.jpeg" width="300" height="300" />
+    <p><strong>VD</strong></p>
+    <p>Åke Larsson</p>
+    <a href="mailto:akelarsson@skrot.se"> akelarsson@skrot.se</a>
+    <br>
+    <image src="offentligsektor.jpeg" width="300" height="300" />
+    <p><strong>HR</strong></p>
+    <p>Britt Larsson</p>
+    <a href="mailto:brittlarsson@skrot.se"> brittlarsson@skrot.se</a>
+
+
+    <p> Om du vill komma i kontakt med oss, vänligen fyll i vårt formulär <u>nedan</u></p>
+    <form action="någonwebbadress" method="post">
+        <table border="1">
+            <tr>
+                <th>Fråga</th>
+                <th>Svar</th>
+            </tr>
+
+            <tr>
+                <td><label for="firstname">Förnamn</label></td>
+                <td><input id="namn" name="thename" type="text" size="60"></td>
+            </tr>
+            <tr>
+                <td><label for="lastname">Efternamn</label></td>
+                <td><input id="namn" name="thename" type="text" size="60"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Adress</label></td>
+                <td><input id="namn" name="thename" type="text" size="60"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Emailadress</label></td>
+                <td><input id="namn" name="thename" type="text" size="60"></td>
+            </tr>
+            <tr>
+                <td><label for="phonenumber">Telefonnummer</label></td>
+                <td><input id="namn" name="thename" type="text" size="60"></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" id="privat" name="privatepublic" value="Privat"><br>
+                    <input type="radio" id="företag" name="privatepublic" value="Företag">
+                </td>
+                <td>
+                    <label for="privat">Privat</label><br>
+                    <label for="företag">Företag</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="storlek">Storlek på företag</label></td>
+
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" id="1-100" name="storlek" value="1-100"><br>
+                    <input type="radio" id="101-1000" name="storlek" value="101-1000"><br>
+                    <input type="radio" id=">1000" name="storlek" value="Mer än 1000 anställda">
+                </td>
+                <td>
+                    <label for="1-100">1-100</label><br>
+                    <label for="101-1000">101-1000</label><br>
+                    <label for=">1000">Mer än 1000 anställda</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="fraga">Ställ en fråga</label>
+                <td><textarea id="fraga" name="myquestion" rows="4" cols="50"></textarea></td>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="nyhetsbrev">Vill du signa upp dig på nyhetsbrev?</label> </td>
+                <td><input type="checkbox" id="yesorno" name="ja"></input></td>
+            </tr>
+            <tr>
+                <td><label for="telefon">Vill du bli kontaktad på telefon?</label></td>
+                <td><input type="checkbox" id="yesorno" name="ja"></td>
+            </tr>
+            <tr>
+                <td colspan="2"td>
+                    <input type="button" value="Skicka">
+            </tr>
+
+
+
+
+            </tr>
+
+        </table>
+    </form>
+
+
+</body>
+
 </html>
